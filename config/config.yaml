@@ -1,0 +1,54 @@
+# Kasparro Agentic FB Analyst Configuration
+# UPDATED: Better thresholds and query router config
+
+data:
+  dataset_path: "data/synthetic_fb_ads_undergarments.csv"
+  sample_mode: false
+  sample_size: 500
+
+thresholds:
+  low_ctr: 0.01  # ✅ FIXED: Raised from 0.009 to 1% (percentile-based now anyway)
+  low_roas: 5.0
+  high_roas: 50.0
+  confidence_threshold: 0.7
+
+output:
+  reports_dir: "reports"
+  logs_dir: "logs"
+  save_insights: true
+  save_creatives: true
+  save_report: true
+  archive_reports: true  # ✅ NEW: Auto-archive enabled
+
+llm:
+  provider: "groq"
+  model: "llama-3.3-70b-versatile"
+  temperature: 0.7
+  max_tokens: 2000
+
+agents:
+  planner:
+    max_retries: 2
+  data:
+    max_summary_length: 1000
+    include_rankings: true  # ✅ NEW: Include campaign rankings in summary
+  insight:
+    max_hypotheses: 5
+    min_confidence: 0.6
+    query_aware: true  # ✅ NEW: Enable query awareness
+  evaluator:
+    significance_level: 0.05
+  creative:
+    max_suggestions: 10
+    min_samples: 3
+    use_percentile: true  # ✅ NEW: Use percentile-based filtering
+    percentile_threshold: 0.20  # ✅ NEW: Bottom 20% of campaigns
+
+# ✅ NEW: Query Router Configuration
+query_router:
+  enabled: true
+  classify_queries: true
+  extract_metrics: true
+  detect_intent: true
+
+random_seed: 42
