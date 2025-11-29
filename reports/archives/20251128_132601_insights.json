@@ -1,0 +1,78 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "hypothesis": "The high average ROAS of 9.63 is driven by the top-performing campaigns such as 'MEN PREMIUM -ODAL' with an ROAS of 89.33, and 'Men | Athlei ure Cooling' with an ROAS of 85.33, which together contribute significantly to the overall revenue.",
+      "confidence": 0.9,
+      "evidence": [
+        "The top campaigns by ROAS have significantly higher ROAS values, with 'MEN PREMIUM -ODAL' at 89.33 and 'Men | Athlei ure Cooling' at 85.33, compared to the average ROAS of 9.63.",
+        "These campaigns contribute to a large portion of the total revenue, with the top 10 campaigns by ROAS accounting for 30% of the total revenue."
+      ],
+      "impact": "high",
+      "recommendation": "Continue to allocate budget to top-performing campaigns and consider scaling them to maximize revenue."
+    },
+    {
+      "id": "H2",
+      "hypothesis": "The low CTR of 0.013 is negatively impacting the overall performance, particularly in campaigns such as 'MEN BOL COLORS DROP' with a CTR of 0.0045, which may indicate poor ad creative or targeting.",
+      "confidence": 0.8,
+      "evidence": [
+        "The bottom campaigns by CTR have significantly lower CTR values, with 'MEN BOL COLORS DROP' at 0.0045, compared to the average CTR of 0.013.",
+        "The campaigns with low CTR also tend to have lower ROAS values, such as 'MEN BOL COLORS DROP' with an ROAS of 0.17."
+      ],
+      "impact": "medium",
+      "recommendation": "Optimize ad creative and targeting for campaigns with low CTR, such as 'MEN BOL COLORS DROP', to improve overall performance."
+    },
+    {
+      "id": "H3",
+      "hypothesis": "The disparity in ROAS between the top and bottom campaigns, with the top campaign 'MEN PREMIUM -ODAL' having an ROAS of 89.33 and the bottom campaign 'Men  Bold  Coors  Drop' having an ROAS of 0.17, indicates a significant opportunity for optimization and improvement in campaign targeting and ad creative.",
+      "confidence": 0.85,
+      "evidence": [
+        "The top campaigns by ROAS have significantly higher ROAS values, with 'MEN PREMIUM -ODAL' at 89.33, compared to the bottom campaigns, with 'Men  Bold  Coors  Drop' at 0.17.",
+        "The average ROAS of 9.63 is skewed by the top-performing campaigns, and the median ROAS of 4.34 is more representative of the overall performance."
+      ],
+      "impact": "high",
+      "recommendation": "Conduct a thorough analysis of the top and bottom campaigns to identify key factors contributing to their performance and apply these insights to optimize and improve the overall campaign performance."
+    }
+  ],
+  "evaluations": [
+    {
+      "hypothesis_id": "H1",
+      "verdict": "INSUFFICIENT DATA",
+      "confidence": 0.4,
+      "statistical_tests": [],
+      "quantitative_evidence": {},
+      "validation_notes": "Insufficient data to validate this hypothesis conclusively.",
+      "recommendation": "COLLECT MORE DATA"
+    },
+    {
+      "hypothesis_id": "H2",
+      "verdict": "INSUFFICIENT DATA",
+      "confidence": 0.4,
+      "statistical_tests": [],
+      "quantitative_evidence": {},
+      "validation_notes": "Insufficient data to validate this hypothesis conclusively.",
+      "recommendation": "COLLECT MORE DATA"
+    },
+    {
+      "hypothesis_id": "H3",
+      "verdict": "PARTIALLY VALIDATED",
+      "confidence": 0.68,
+      "statistical_tests": [
+        {
+          "test": "Two-sample t-test (time periods)",
+          "comparison": "First half ROAS vs Second half ROAS",
+          "result": "p-value = 0.3688",
+          "interpretation": "Not significant"
+        }
+      ],
+      "quantitative_evidence": {
+        "first_half_roas": 9.855213903743316,
+        "second_half_roas": 9.413880729862038,
+        "change_pct": -4.47816940547222
+      },
+      "validation_notes": "Some evidence supports this hypothesis, but confidence is moderate.",
+      "recommendation": "MONITOR - Consider additional validation"
+    }
+  ],
+  "overall_assessment": "The overall assessment of the hypothesis validations reveals that none of the hypotheses were fully validated, with H1 and H2 lacking sufficient data and H3 being only partially validated with a moderate confidence score of 0.68. Further investigation is needed for all hypotheses, particularly H1 and H2, which require more data collection. The moderate confidence in H3 suggests that while some evidence supports this hypothesis, additional validation is necessary to bolster the findings and increase overall confidence in the results."
+}

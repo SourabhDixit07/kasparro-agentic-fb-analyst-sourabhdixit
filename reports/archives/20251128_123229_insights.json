@@ -1,0 +1,120 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "hypothesis": "The 'Men  Bold  Coors  Drop' campaign should be paused due to its extremely low ROAS of 0.17, which is significantly lower than the median ROAS of 4.34.",
+      "confidence": 0.9,
+      "evidence": [
+        "The 'Men  Bold  Coors  Drop' campaign has a ROAS of 0.17, which is the lowest among all campaigns",
+        "The median ROAS across all campaigns is 4.34, indicating that the 'Men  Bold  Coors  Drop' campaign is underperforming"
+      ],
+      "impact": "high",
+      "recommendation": "Pause the 'Men  Bold  Coors  Drop' campaign to avoid further inefficient spend"
+    },
+    {
+      "id": "H2",
+      "hypothesis": "The 'MEN COMFORTMA LAUNCH' and 'Men Bold Colors Dr p' campaigns should be paused due to their low ROAS values of 0.22 and 0.24, respectively, and low CTR values of 0.0054 and 0.0053, respectively.",
+      "confidence": 0.85,
+      "evidence": [
+        "The 'MEN COMFORTMA LAUNCH' campaign has a ROAS of 0.22 and a CTR of 0.0054, indicating poor performance",
+        "The 'Men Bold Colors Dr p' campaign has a ROAS of 0.24 and a CTR of 0.0053, indicating poor performance"
+      ],
+      "impact": "medium",
+      "recommendation": "Pause the 'MEN COMFORTMA LAUNCH' and 'Men Bold Colors Dr p' campaigns to allocate budget to better-performing campaigns"
+    },
+    {
+      "id": "H3",
+      "hypothesis": "The 'MEN BOLD COL RS DROP' campaign should be paused due to its low ROAS of 0.28 and low CTR of 0.0054, which are significantly lower than the top-performing campaigns such as 'MEN PREMIUM -ODAL' with a ROAS of 89.33 and 'mn | athleisure cooling' with a CTR of 0.0293.",
+      "confidence": 0.8,
+      "evidence": [
+        "The 'MEN BOLD COL RS DROP' campaign has a ROAS of 0.28, which is lower than the median ROAS of 4.34",
+        "The 'MEN BOLD COL RS DROP' campaign has a CTR of 0.0054, which is lower than the average CTR of 0.01306551111111112"
+      ],
+      "impact": "medium",
+      "recommendation": "Pause the 'MEN BOLD COL RS DROP' campaign and allocate budget to top-performing campaigns such as 'MEN PREMIUM -ODAL' and 'mn | athleisure cooling'"
+    },
+    {
+      "id": "H4",
+      "hypothesis": "The bottom 5 campaigns by ROAS, including 'Men  Bold  Coors  Drop', 'MEN COMFORTMA LAUNCH', 'Men Bold Colors Dr p', 'men sig ature soft', and 'MEN BOLD COL RS DROP', should be paused due to their extremely low ROAS values, ranging from 0.17 to 0.33.",
+      "confidence": 0.95,
+      "evidence": [
+        "The bottom 5 campaigns by ROAS have extremely low ROAS values, ranging from 0.17 to 0.33",
+        "The median ROAS across all campaigns is 4.34, indicating that these campaigns are significantly underperforming"
+      ],
+      "impact": "high",
+      "recommendation": "Pause the bottom 5 campaigns by ROAS to avoid further inefficient spend and allocate budget to better-performing campaigns"
+    }
+  ],
+  "evaluations": [
+    {
+      "hypothesis_id": "H1",
+      "verdict": "PARTIALLY VALIDATED",
+      "confidence": 0.7200000000000001,
+      "statistical_tests": [
+        {
+          "test": "Two-sample t-test (time periods)",
+          "comparison": "First half ROAS vs Second half ROAS",
+          "result": "p-value = 0.3688",
+          "interpretation": "Not significant"
+        }
+      ],
+      "quantitative_evidence": {
+        "first_half_roas": 9.855213903743316,
+        "second_half_roas": 9.413880729862038,
+        "change_pct": -4.47816940547222
+      },
+      "validation_notes": "Some evidence supports this hypothesis, but confidence is moderate.",
+      "recommendation": "MONITOR - Consider additional validation"
+    },
+    {
+      "hypothesis_id": "H2",
+      "verdict": "INSUFFICIENT DATA",
+      "confidence": 0.4,
+      "statistical_tests": [],
+      "quantitative_evidence": {},
+      "validation_notes": "Insufficient data to validate this hypothesis conclusively.",
+      "recommendation": "COLLECT MORE DATA"
+    },
+    {
+      "hypothesis_id": "H3",
+      "verdict": "PARTIALLY VALIDATED",
+      "confidence": 0.6400000000000001,
+      "statistical_tests": [
+        {
+          "test": "Two-sample t-test (time periods)",
+          "comparison": "First half ROAS vs Second half ROAS",
+          "result": "p-value = 0.3688",
+          "interpretation": "Not significant"
+        }
+      ],
+      "quantitative_evidence": {
+        "first_half_roas": 9.855213903743316,
+        "second_half_roas": 9.413880729862038,
+        "change_pct": -4.47816940547222
+      },
+      "validation_notes": "Some evidence supports this hypothesis, but confidence is moderate.",
+      "recommendation": "MONITOR - Consider additional validation"
+    },
+    {
+      "hypothesis_id": "H4",
+      "verdict": "PARTIALLY VALIDATED",
+      "confidence": 0.76,
+      "statistical_tests": [
+        {
+          "test": "Two-sample t-test (time periods)",
+          "comparison": "First half ROAS vs Second half ROAS",
+          "result": "p-value = 0.3688",
+          "interpretation": "Not significant"
+        }
+      ],
+      "quantitative_evidence": {
+        "first_half_roas": 9.855213903743316,
+        "second_half_roas": 9.413880729862038,
+        "change_pct": -4.47816940547222
+      },
+      "validation_notes": "Some evidence supports this hypothesis, but confidence is moderate.",
+      "recommendation": "MONITOR - Consider additional validation"
+    }
+  ],
+  "overall_assessment": "The validation results show that hypotheses H1, H3, and H4 were partially validated with moderate confidence levels, ranging from 0.72 to 0.76, indicating some evidence to support these claims but also a need for further investigation. In contrast, hypothesis H2 lacked sufficient data to be conclusively validated, highlighting the need for additional data collection. Overall, while some hypotheses have moderate support, the findings suggest that further monitoring and data collection are necessary to increase confidence in the results and provide more definitive conclusions."
+}

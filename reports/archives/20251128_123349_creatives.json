@@ -1,0 +1,70 @@
+{
+  "recommendations": [
+    {
+      "campaign": "OMEN COTTON CLASSICS",
+      "current_ctr": 0.0076,
+      "issue": "Lack of emphasis on comfort and no clear call to action",
+      "new_messages": [
+        {
+          "message": "Breathe easy, move freely \u2014 women's sports bras now 15% off",
+          "strategy": "Emphasizing comfort and introducing a discount to create urgency, similar to top-performing ads",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "Soft, breathable, and designed for you \u2014 discover the comfort of OMEN COTTON CLASSICS",
+          "strategy": "Highlighting key benefits and features to appeal to the target audience, with a focus on comfort as seen in successful ads",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Limited time offer: experience the best of OMEN COTTON CLASSICS \u2014 women's sports bras that feel like a second skin",
+          "strategy": "Creating a sense of urgency with a limited time offer and emphasizing the quality and comfort of the product, inspired by top-performing patterns",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    },
+    {
+      "campaign": "M-n Bold Colors Drop",
+      "current_ctr": 0.0076,
+      "issue": "Lack of social proof and no clear emphasis on what makes the product unique",
+      "new_messages": [
+        {
+          "message": "Top-rated men's trunks \u2014 now in bold new colors, limited stock available",
+          "strategy": "Introducing social proof with 'top-rated' and creating urgency with 'limited stock', while highlighting the unique aspect of the product",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "Experience the comfort and style of M-n Bold Colors Drop \u2014 seamless men's trunks for every day",
+          "strategy": "Emphasizing both comfort and style, with a focus on the seamless feature to appeal to the target audience",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Doctors recommend breathable fabrics \u2014 M-n Bold Colors Drop men's trunks for the win",
+          "strategy": "Using social proof by mentioning 'doctors recommend' and highlighting the breathable fabric, a key feature from successful ads",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    },
+    {
+      "campaign": "MEN Signature Soft",
+      "current_ctr": 0.0075,
+      "issue": "Current message is too similar to a top-performing ad but not performing as well, indicating a need for fresh approaches",
+      "new_messages": [
+        {
+          "message": "20% off MEN Signature Soft \u2014 the breathable men's athletic briefs you'll love",
+          "strategy": "Introducing a discount to create urgency and emphasizing the comfort and breathability, similar to successful patterns",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "What doctors swear by: MEN Signature Soft athletic briefs for the ultimate comfort experience",
+          "strategy": "Using social proof by emphasizing what 'doctors swear by' and highlighting the comfort experience, inspired by top ads",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Feel the difference with MEN Signature Soft \u2014 premium men's athletic briefs for every occasion",
+          "strategy": "Highlighting the premium quality and emphasizing the comfort for 'every occasion', with a focus on the product's unique selling points",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    }
+  ]
+}

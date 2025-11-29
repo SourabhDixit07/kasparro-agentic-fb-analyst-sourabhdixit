@@ -1,0 +1,67 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "hypothesis": "The CPC increase is due to the high competition in the 'Men | Athleisure Cooling' campaign, which has a high CTR of 0.0293 and is likely driving up costs",
+      "confidence": 0.85,
+      "evidence": [
+        "The 'Men | Athleisure Cooling' campaign has a high CTR of 0.0293, indicating high demand and potential competition",
+        "The average ROAS for the 'Men | Athleisure Cooling' campaign is 85.33, suggesting that the high CPC is still resulting in profitable conversions"
+      ],
+      "impact": "high",
+      "recommendation": "Consider optimizing the 'Men | Athleisure Cooling' campaign by adjusting targeting, ad creative, or bidding strategies to reduce CPC while maintaining profitability"
+    },
+    {
+      "id": "H2",
+      "hypothesis": "The CPC increase is caused by the poor performance of campaigns with low CTR, such as 'MEN BOL COLORS DROP' with a CTR of 0.0045, which is likely increasing the overall CPC",
+      "confidence": 0.7,
+      "evidence": [
+        "The 'MEN BOL COLORS DROP' campaign has a low CTR of 0.0045, indicating low engagement and potential waste of ad spend",
+        "The average ROAS for campaigns with low CTR (e.g. 'MEN BOL COLORS DROP') is 0.17, suggesting that these campaigns are not profitable and may be driving up CPC"
+      ],
+      "impact": "medium",
+      "recommendation": "Consider pausing or optimizing campaigns with low CTR, such as 'MEN BOL COLORS DROP', to reduce waste and improve overall CPC"
+    },
+    {
+      "id": "H3",
+      "hypothesis": "The CPC increase is due to the shift in platform allocation, with Instagram having a lower average ROAS (9.353518850987433) compared to Facebook (9.910936809544852), potentially leading to higher CPC on Instagram",
+      "confidence": 0.6,
+      "evidence": [
+        "The average ROAS on Instagram (9.353518850987433) is lower than on Facebook (9.910936809544852), indicating potential inefficiencies in ad spend allocation",
+        "The count of ad sets on Instagram (2228) is similar to Facebook (2263), suggesting that the shift in platform allocation may be contributing to the CPC increase"
+      ],
+      "impact": "medium",
+      "recommendation": "Consider adjusting platform allocation to optimize ad spend and reduce CPC, potentially by shifting more budget to Facebook or improving Instagram ad performance"
+    }
+  ],
+  "evaluations": [
+    {
+      "hypothesis_id": "H1",
+      "verdict": "INSUFFICIENT DATA",
+      "confidence": 0.4,
+      "statistical_tests": [],
+      "quantitative_evidence": {},
+      "validation_notes": "Insufficient data to validate this hypothesis conclusively.",
+      "recommendation": "COLLECT MORE DATA"
+    },
+    {
+      "hypothesis_id": "H2",
+      "verdict": "INSUFFICIENT DATA",
+      "confidence": 0.4,
+      "statistical_tests": [],
+      "quantitative_evidence": {},
+      "validation_notes": "Insufficient data to validate this hypothesis conclusively.",
+      "recommendation": "COLLECT MORE DATA"
+    },
+    {
+      "hypothesis_id": "H3",
+      "verdict": "INSUFFICIENT DATA",
+      "confidence": 0.4,
+      "statistical_tests": [],
+      "quantitative_evidence": {},
+      "validation_notes": "Insufficient data to validate this hypothesis conclusively.",
+      "recommendation": "COLLECT MORE DATA"
+    }
+  ],
+  "overall_assessment": "Overall, none of the hypotheses (H1, H2, H3) could be validated conclusively due to insufficient data, resulting in low confidence scores of 0.4 across the board. Further investigation is needed to gather more data and increase the confidence in the findings, as the current evidence is not strong enough to support or reject any of the hypotheses. Therefore, the overall confidence in the findings is low, and additional data collection is recommended to proceed with more accurate validations."
+}

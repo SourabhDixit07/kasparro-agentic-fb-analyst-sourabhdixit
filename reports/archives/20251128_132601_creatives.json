@@ -1,0 +1,70 @@
+{
+  "recommendations": [
+    {
+      "campaign": "OMEN COTTON CLASSICS",
+      "current_ctr": 0.0076,
+      "issue": "Lack of emphasis on comfort and no clear call-to-action",
+      "new_messages": [
+        {
+          "message": "Breathe easy, move freely \u2014 women's sports bras now 15% off",
+          "strategy": "Emphasizes comfort and includes a discount to create urgency, similar to top-performing ads",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "Soft, breathable, and doctor-recommended \u2014 women's sports bras for ultimate comfort",
+          "strategy": "Combines emphasis on comfort with social proof, mirroring successful patterns",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Limited time offer: premium women's sports bras for the win \u2014 tonight only",
+          "strategy": "Creates urgency with a limited-time offer and highlights quality, inspired by top ads",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    },
+    {
+      "campaign": "M-n Bold Colors Drop",
+      "current_ctr": 0.0076,
+      "issue": "Failure to highlight key benefits and lack of compelling offer",
+      "new_messages": [
+        {
+          "message": "Step up your comfort game \u2014 men's trunks with breathable mesh panels, now 20% off",
+          "strategy": "Emphasizes comfort and includes a discount, following the pattern of successful ads",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "Experience the difference \u2014 seamless men's trunks for every day, recommended by athletes",
+          "strategy": "Highlights quality and comfort, with social proof, similar to top performers",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Hot deal alert: bold colors, premium feel \u2014 men's trunks sale ends soon",
+          "strategy": "Creates urgency with a sale ending soon and emphasizes quality and style, inspired by successful ads",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    },
+    {
+      "campaign": "MEN Signature Soft",
+      "current_ctr": 0.0075,
+      "issue": "Current message too similar to a top-performing ad but not resonating; needs a fresh approach",
+      "new_messages": [
+        {
+          "message": "Unlock comfort \u2014 men's athletic briefs with signature softness, limited offer",
+          "strategy": "Emphasizes the unique selling point of signature softness and creates urgency, learning from top ads",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "Feel the comfort, trust the quality \u2014 men's athletic briefs for the modern man",
+          "strategy": "Focuses on comfort and quality, with an appeal to the target audience, mirroring successful patterns",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Doctors agree: the best athletic briefs for men combine comfort and support \u2014 try ours now",
+          "strategy": "Uses social proof and emphasizes the benefits of the product, inspired by top-performing ads",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    }
+  ]
+}

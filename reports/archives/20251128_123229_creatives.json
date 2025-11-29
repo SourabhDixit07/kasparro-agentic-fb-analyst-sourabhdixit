@@ -1,0 +1,70 @@
+{
+  "recommendations": [
+    {
+      "campaign": "OMEN COTTON CLASSICS",
+      "current_ctr": 0.0076,
+      "issue": "Lack of emphasis on comfort and no clear call-to-action",
+      "new_messages": [
+        {
+          "message": "Breathe easy with our soft cotton sports bras \u2014 limited time offer: 20% off",
+          "strategy": "Emphasizing comfort and using urgency words and discounts, similar to top-performing ads",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "Discover the comfort that doctors recommend \u2014 OMEN COTTON CLASSICS sports bras now on sale",
+          "strategy": "Using social proof and emphasizing comfort, with a clear call-to-action",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Say goodbye to discomfort \u2014 experience the softness of our cotton sports bras, now 15% off",
+          "strategy": "Highlighting the benefits of the product and using discounts to incentivize clicks",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    },
+    {
+      "campaign": "M-n Bold Colors Drop",
+      "current_ctr": 0.0076,
+      "issue": "Lack of emphasis on quality and no clear unique selling point",
+      "new_messages": [
+        {
+          "message": "Upgrade your wardrobe with our premium men trunks \u2014 bold colors, breathable fabric, and limited time offer: buy one get one 20% off",
+          "strategy": "Highlighting quality, using urgency words, and emphasizing benefits, similar to top-performing ads",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "Experience the comfort and style of our signature men trunks \u2014 seamless, breathable, and now on sale",
+          "strategy": "Emphasizing comfort, using social proof, and highlighting quality",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Level up your comfort with our bold colors men trunks \u2014 soft, breathable, and now 15% off",
+          "strategy": "Highlighting the benefits of the product, using discounts, and emphasizing comfort",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    },
+    {
+      "campaign": "MEN Signature Soft",
+      "current_ctr": 0.0075,
+      "issue": "Lack of emphasis on urgency and no clear call-to-action",
+      "new_messages": [
+        {
+          "message": "Don't miss out: doctors recommend our breathable cotton men athletic briefs \u2014 now 20% off for a limited time",
+          "strategy": "Using social proof, emphasizing comfort, and creating a sense of urgency, similar to top-performing ads",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "Unlock the secret to comfort: our signature men athletic briefs \u2014 seamless, breathable, and now on sale",
+          "strategy": "Highlighting the benefits of the product, using social proof, and emphasizing comfort",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Feel the difference with our soft cotton men athletic briefs \u2014 limited time offer: buy one get one 15% off",
+          "strategy": "Emphasizing comfort, using discounts, and creating a sense of urgency",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    }
+  ]
+}
