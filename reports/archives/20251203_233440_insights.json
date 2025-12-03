@@ -1,0 +1,131 @@
+{
+  "query": "Why is my ROAS dropping?",
+  "timestamp": "20251203_233440",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "hypothesis": "The ROAS is dropping due to the poor performance of certain campaigns, such as 'Men Bold Colors Drop' and 'MEN COMFORTMA LAUNCH', which have ROAS values of 0.17 and 0.22, respectively, significantly lower than the median ROAS of 4.34.",
+      "confidence": 0.9,
+      "evidence": [
+        "The 'Men Bold Colors Drop' campaign has a ROAS of 0.17, which is 97.5% lower than the median ROAS.",
+        "The 'MEN COMFORTMA LAUNCH' campaign has a ROAS of 0.22, which is 94.8% lower than the median ROAS."
+      ],
+      "impact": "high",
+      "recommendation": "Pause or optimize the underperforming campaigns to improve overall ROAS."
+    },
+    {
+      "id": "H2",
+      "hypothesis": "The ROAS is dropping due to the decreasing performance of the 'Broad' audience type, which has a mean ROAS of 7.99, lower than the overall mean ROAS of 9.63.",
+      "confidence": 0.8,
+      "evidence": [
+        "The 'Broad' audience type has a mean ROAS of 7.99, which is 17.3% lower than the overall mean ROAS.",
+        "The 'Broad' audience type accounts for 55.6% of the total records, making it a significant contributor to the overall ROAS."
+      ],
+      "impact": "medium",
+      "recommendation": "Optimize the targeting and ad creative for the 'Broad' audience type to improve its performance."
+    },
+    {
+      "id": "H3",
+      "hypothesis": "The ROAS is dropping due to the shift in platform performance, with Instagram's mean ROAS of 9.35 being 5.3% lower than Facebook's mean ROAS of 9.91.",
+      "confidence": 0.7,
+      "evidence": [
+        "Instagram's mean ROAS is 5.3% lower than Facebook's mean ROAS.",
+        "The number of records on Instagram is 49.5% of the total records, making it a significant platform for the campaign."
+      ],
+      "impact": "low",
+      "recommendation": "Monitor the platform performance and consider allocating more budget to Facebook or optimizing the Instagram ad creative to improve its performance."
+    }
+  ],
+  "evaluations": [
+    {
+      "hypothesis_id": "H1",
+      "hypothesis_text": "The ROAS is dropping due to the poor performance of certain campaigns, such as 'Men Bold Colors Drop' and 'MEN COMFORTMA LAUNCH', which have ROAS values of 0.17 and 0.22, respectively, significantly lower than the median ROAS of 4.34.",
+      "verdict": "PARTIALLY VALIDATED",
+      "confidence": 0.81,
+      "statistical_tests": [
+        {
+          "test": "Time period t-test",
+          "comparison": "roas first half vs second half",
+          "p_value": 0.3687950477641875,
+          "interpretation": "Not significant"
+        },
+        {
+          "test": "Campaign performance t-test",
+          "comparison": "Top 10% vs Bottom 10% campaigns on roas",
+          "p_value": 3.5230262250778764e-17,
+          "interpretation": "Statistically significant"
+        }
+      ],
+      "quantitative_evidence": {
+        "first_period_roas_mean": 9.855213903743316,
+        "second_period_roas_mean": 9.413880729862038,
+        "roas_change_pct": -4.47816940547222,
+        "trend": "decreased",
+        "p_value": 3.5230262250778764e-17,
+        "top_campaigns_roas_mean": 30.851895125711888,
+        "bottom_campaigns_roas_mean": 0.5114473684210527,
+        "performance_gap_pct": 5932.271750846678,
+        "top_campaign_count": 37,
+        "bottom_campaign_count": 38
+      },
+      "validation_notes": "Moderate evidence supports this hypothesis (2/2 tests significant).",
+      "recommendation": "MONITOR - Consider additional validation before major decisions"
+    },
+    {
+      "hypothesis_id": "H2",
+      "hypothesis_text": "The ROAS is dropping due to the decreasing performance of the 'Broad' audience type, which has a mean ROAS of 7.99, lower than the overall mean ROAS of 9.63.",
+      "verdict": "NOT VALIDATED",
+      "confidence": 0.3,
+      "statistical_tests": [
+        {
+          "test": "Time period t-test",
+          "comparison": "roas first half vs second half",
+          "p_value": 0.3687950477641875,
+          "interpretation": "Not significant"
+        }
+      ],
+      "quantitative_evidence": {
+        "first_period_roas_mean": 9.855213903743316,
+        "second_period_roas_mean": 9.413880729862038,
+        "roas_change_pct": -4.47816940547222,
+        "trend": "decreased",
+        "p_value": 0.3687950477641875
+      },
+      "validation_notes": "Statistical tests do not support this hypothesis.",
+      "recommendation": "REJECT - Look for alternative explanations"
+    },
+    {
+      "hypothesis_id": "H3",
+      "hypothesis_text": "The ROAS is dropping due to the shift in platform performance, with Instagram's mean ROAS of 9.35 being 5.3% lower than Facebook's mean ROAS of 9.91.",
+      "verdict": "NOT VALIDATED",
+      "confidence": 0.3,
+      "statistical_tests": [
+        {
+          "test": "Two-sample t-test",
+          "comparison": "Facebook vs Instagram on roas",
+          "p_value": 0.2563231870643256,
+          "interpretation": "Not significant"
+        },
+        {
+          "test": "Time period t-test",
+          "comparison": "roas first half vs second half",
+          "p_value": 0.3687950477641875,
+          "interpretation": "Not significant"
+        }
+      ],
+      "quantitative_evidence": {
+        "Facebook_roas_mean": 9.910936809544852,
+        "Instagram_roas_mean": 9.353518850987433,
+        "difference_pct": 5.959446572330089,
+        "p_value": 0.3687950477641875,
+        "first_period_roas_mean": 9.855213903743316,
+        "second_period_roas_mean": 9.413880729862038,
+        "roas_change_pct": -4.47816940547222,
+        "trend": "decreased"
+      },
+      "validation_notes": "Statistical tests do not support this hypothesis.",
+      "recommendation": "REJECT - Look for alternative explanations"
+    }
+  ],
+  "overall_assessment": "The evaluation of hypotheses suggests that only hypothesis H1, which posits that the ROAS is dropping due to the poor performance of certain campaigns, was partially validated with a confidence score of 0.81. In contrast, hypotheses H2 and H3, related to the performance of the 'Broad' audience type and the shift in platform performance, respectively, were not validated, indicating that these factors may not be the primary causes of the dropping ROAS. Overall, the findings indicate a need for further investigation into the causes of the declining ROAS, with moderate confidence in the identified campaign performance issue, but low confidence in the other proposed explanations."
+}
