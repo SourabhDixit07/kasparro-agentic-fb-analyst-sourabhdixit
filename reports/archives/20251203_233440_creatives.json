@@ -1,0 +1,72 @@
+{
+  "query": "Why is my ROAS dropping?",
+  "timestamp": "20251203_233440",
+  "recommendations": [
+    {
+      "campaign": "OMEN COTTON CLASSICS",
+      "current_ctr": 0.0076,
+      "issue": "Lack of emphasis on comfort and no clear call-to-action",
+      "new_messages": [
+        {
+          "message": "Breathe easy, move free \u2014 20% off women sports bras for a limited time",
+          "strategy": "Emphasizing comfort and introducing a sense of urgency with a discount",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "Soft, supportive, and designed for you \u2014 discover the best women sports bras now",
+          "strategy": "Highlighting key benefits and features of the product",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Upgrade your workout with premium women sports bras \u2014 feel the difference tonight",
+          "strategy": "Introducing a sense of quality and urgency to prompt action",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    },
+    {
+      "campaign": "M-n Bold Colors Drop",
+      "current_ctr": 0.0076,
+      "issue": "Lack of social proof and no clear unique selling point",
+      "new_messages": [
+        {
+          "message": "Top-rated men trunks with seamless confidence \u2014 now 15% off for a limited time",
+          "strategy": "Introducing social proof and a sense of urgency with a discount",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "Experience the comfort of breathable microfiber \u2014 men trunks that move with you",
+          "strategy": "Emphasizing key benefits and features of the product",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Doctors recommend our men trunks for their comfort and support \u2014 try them now",
+          "strategy": "Using social proof from experts to build trust",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    },
+    {
+      "campaign": "MEN Signature Soft",
+      "current_ctr": 0.0075,
+      "issue": "Message too similar to a top-performing ad but not resonating with the audience",
+      "new_messages": [
+        {
+          "message": "Limited offer: 20% off men athletic briefs \u2014 feel the breathable difference",
+          "strategy": "Introducing a sense of urgency and emphasizing comfort",
+          "expected_ctr": "1.2-1.5%"
+        },
+        {
+          "message": "Soft, breathable, and designed for performance \u2014 men athletic briefs for the modern man",
+          "strategy": "Highlighting key benefits and features of the product",
+          "expected_ctr": "1.0-1.3%"
+        },
+        {
+          "message": "Experience the comfort that doctors recommend \u2014 men athletic briefs with premium quality",
+          "strategy": "Combining social proof with an emphasis on quality",
+          "expected_ctr": "1.1-1.4%"
+        }
+      ]
+    }
+  ]
+}
